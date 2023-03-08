@@ -39,4 +39,12 @@ public class CustomListTest {
             list.deleteCity(city); });
     }
 
+    @Test
+    void testCountCity(){
+        CustomList list = new CustomList(null,citylist);
+        City city = new City("Yellowknife", "Northwest Territories");
+        list.addCity(city);
+        assertEquals(1,list.countCities());
+    }
+
 }

@@ -66,4 +66,7 @@ public class CustomList extends ArrayAdapter<City> {
         }
     }
 
+    public void countCities(){
+    }
+
 }
